@@ -1,0 +1,22 @@
+Miniespecificación
+1. Inicio
+// Variables
+2. cantidad, d[0,n]
+3. precioUni, d[0,n]
+4. pTotal, d[0,n]
+5. descuento, d[0,n]
+6. descuento <-- 15%
+// Pedir datos por método de entrada - teclado
+7. Escribir "Ingresar la cantidad solicitada del producto"
+8. Leer cantidad
+9. Escribir " Ingresar el precio unitario del producto"
+10. Leer preciouni
+// Proceso
+11. pTotal <-- cantidad * precioUni
+12. Si cantidad > 50 unidades entonces
+13. descuento <-- (porcentaje * totalp)/100
+14. pTotal <-- pTotal - descuento
+15. Fin si
+ // Salida
+16. Escribir "El valor total a pagar es:" + pTotal
+17. Fin
